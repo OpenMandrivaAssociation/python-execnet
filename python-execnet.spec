@@ -15,10 +15,12 @@ Source0:        https://files.pythonhosted.org/packages/ab/c0/9496c35092eac2523e
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
+BuildRequires:  python-setuptools_scm
  
 %if %{with_python2}
 BuildRequires:  python2-devel
 BuildRequires:  python2-setuptools
+BuildRequires:  python2-setuptools_scm
 %endif # if with_python2
 
 
