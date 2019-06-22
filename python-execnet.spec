@@ -1,10 +1,9 @@
 # Created by pyp2rpm-2.0.0
 %global pypi_name execnet
 %global with_python2 1
-%define version 1.5.0
 
 Name:           python-%{pypi_name}
-Version:        %{version}
+Version:        1.5.0
 Release:        1
 Group:          Development/Python
 Summary:        Execnet provides a tested means to interact with interpreters across version, platform and network barriers. 
