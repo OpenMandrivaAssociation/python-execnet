@@ -3,14 +3,14 @@
 %global with_python2 1
 
 Name:           python-%{pypi_name}
-Version:	1.6.1
+Version:	1.7.0
 Release:	1
 Group:          Development/Python
 Summary:        Execnet provides a tested means to interact with interpreters across version, platform and network barriers. 
 
 License:        MIT
 URL:            https://codespeak.net/execnet/
-Source0:	https://files.pythonhosted.org/packages/ca/13/19772515ae6c027ad91b538485fe0b8b2746327747c1d0e4cffb27abad8e/execnet-1.6.1.tar.gz
+Source0:	https://files.pythonhosted.org/packages/12/48/778ae1bcff69ff4d10994d820581e956112687af826fb8832f50c2e5166e/execnet-1.7.0.tar.gz
 BuildArch:      noarch
 BuildRequires:  python3-devel
 BuildRequires:  python-setuptools
