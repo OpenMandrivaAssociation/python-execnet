@@ -4,7 +4,7 @@
 
 Name:           python-%{pypi_name}
 Version:	1.7.1
-Release:	1
+Release:	2
 Group:          Development/Python
 Summary:        Execnet provides a tested means to interact with interpreters across version, platform and network barriers. 
 
