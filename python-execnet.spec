@@ -22,10 +22,11 @@ BuildRequires:  python2-setuptools_scm
 %endif # if with python2
 
 %description
-Execnet provides carefully tested means to ad-hoc interact with Python interpreters across version, 
-platform and network barriers. It provides a minimal and fast API targetting the following uses:
-To distribute tasks to local or remote processes, write and deploy 
-hybrid multi-process applications and to write scripts to administer multiple hosts
+Execnet provides carefully tested means to ad-hoc interact with Python 
+interpreters across version, platform and network barriers. It provides 
+a minimal and fast API targetting the following uses: To distribute tasks to 
+local or remote processes, write and deploy hybrid multi-process applications 
+and to write scripts to administer multiple hosts
 
 
 %if %{with python2}
@@ -33,10 +34,11 @@ hybrid multi-process applications and to write scripts to administer multiple ho
 Summary:        Execnet provides a tested means to interact with interpreters across version, platform and network barriers. 
 
 %description -n python2-%{pypi_name}
-Execnet provides carefully tested means to ad-hoc interact with Python interpreters across version, 
-platform and network barriers. It provides a minimal and fast API targetting the following uses:
-To distribute tasks to local or remote processes, write and deploy 
-hybrid multi-process applications and to write scripts to administer multiple hosts
+Execnet provides carefully tested means to ad-hoc interact with Python.
+interpreters across version, platform and network barriers. It provides.
+a minimal and fast API targetting the following uses: To distribute tasks to.
+local or remote processes, write and deploy hybrid multi-process applications.
+and to write scripts to administer multiple hosts
 
 %endif # with python2
 
