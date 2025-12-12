@@ -1,6 +1,6 @@
 Name:		python-execnet
 Version:	2.1.1
-Release:	1
+Release:	2
 Source0:	https://files.pythonhosted.org/packages/source/e/execnet/execnet-%{version}.tar.gz
 Summary:	execnet: rapid multi-Python deployment
 URL:		https://pypi.org/project/execnet/
